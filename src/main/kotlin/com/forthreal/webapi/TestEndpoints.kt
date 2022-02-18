@@ -43,7 +43,7 @@ class TestEndpoints : BaseController() {
 
         val jsonObject = JSONObject()
         jsonObject[STATUS_CODE] = SUCCESS_CODE
-        jsonObject[RESPONSE_CONTENT] = "<h1>You're loggod out</h1>"
+        jsonObject[RESPONSE_CONTENT] = "<h1>You're logged out</h1>"
 
         return prepareHttpTextReply(jsonObject, prepareHttpHeaders("text/html"))
     }

@@ -1,0 +1,9 @@
+{
+  "realm": "ForthrealTest",
+  "auth-server-url": "https://localhost:8443/auth",
+  "ssl-required": "external",
+  "resource": "service-account",
+  "credentials": {
+    "secret": "w4baQEmtq9XIlbUJwc8rN71KWp9Ljj9D"
+  }
+}
